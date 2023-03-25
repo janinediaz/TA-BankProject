@@ -39,5 +39,11 @@ There are two Test Runners that can be executed.
 1. Q1TestRunner (Path: "src/test/java/StepDefinitions/Q1TestRunner.java")
 2. Q2TestRunner (Path: "src/test/java/StepDefinitions/Q1TestRunner.java")
 
+Source Directory:
+Cucumber Features: "src\test\java\StepDefinitions"
+Step Definitions: "src\test\Resources\Feature"
+
+
+
 
 Copyright (c) 25-03-2023 Janine Margate Diaz
