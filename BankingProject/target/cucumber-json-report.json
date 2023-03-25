@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-23T19:39:33.046Z",
+        "line": 3,
+        "name": "Login to banking page as banking manager",
+        "description": "",
+        "id": "login-to-banking-page-as-bank-manager;login-to-banking-page-as-banking-manager",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3733262900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I would like to launch the Banking Page URL \"https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps.launchPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5064210700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I login as Bank Manager",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.iLoginAsBankManager()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login to Banking page as Bank Manager",
+    "description": "",
+    "id": "login-to-banking-page-as-bank-manager",
+    "keyword": "Feature",
+    "uri": "file:src/test/Resources/Feature/Login.feature",
+    "tags": []
+  }
+]
