@@ -1,3 +1,6 @@
 Access Cucumber test report for below link:
 
 https://reports.cucumber.io/reports/ef04fb6b-bc09-4001-b0b3-56389dfbd549
+
+
+NOTE: Some test reports have ignored test/s which are skipped test/s depending on the scenario and use of cucumber tags.
